@@ -1,0 +1,18 @@
+.divisionclass{
+    border: 2px solid;
+    margin: 5px;
+    padding: 10px;
+    color: green;
+    border-color: rgb(108, 165, 42);
+    text-align: center;
+    
+} 
+.divspecial{
+    color:red;
+    border: 3px solid red;
+    border-radius: 30%;
+
+}
+sample{
+    color: blue;
+}
