@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Bselector.css">
+   
+    <title>Document</title>
+</head>
+<body> <h1> this is the heading of this website</h1>
+    <div class="divisionclass" id="div1">
+        <p>this is para one  of division one</p>
+        <p>this is para two of division one</p>
+    </div >
+    <div class="divisionclass" id="div2">
+        <p>this is para three of division two</p>
+    </div>
+    <div class="divspecial">
+        <p>this is the 3rd number and the special division</p>
+    </div>
+    <p>This is a outside paragraph</p>
+
+    <button id="idbutton" onclick="change()">Fading Effect</button>
+</body>
+<script src="js/jquery.js"></script>
+<script> 
+    function change(){
+        // $(".divisionclass").fadeToggle();
+        $(".divspecial").hover(function(){
+            $(this).hide();
+        },function(){
+            $(this).show();
+        });
+        $(".divisionclass").hover(function(){
+            $(this).css("color","blue");
+        },function(){$(this).css("color","yellow");});
+    }
+    </script>
+</html>
