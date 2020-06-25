@@ -2,11 +2,11 @@ function fun1(){
     var user=document.getElementById("username_id").value;
 regx =new RegExp("E00","i");
 if (regx.test(user)) {
-     
+       alert("valid username ") ;  
     document.getElementById("lable").style.visibility="hidden";
 }
 else {
-   
+   alert("not a valid user name");
     document.getElementById("lable").style.visibility="visible";
 }
 }
