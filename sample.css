@@ -1,0 +1,67 @@
+body{
+    background-image: url(img/background2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.idTable
+{
+float: right;
+
+
+margin-right: 2em;
+margin-top: 2em;
+}
+   .float-left{
+       float: left;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size: large;
+       color:  rgb(255, 20, 98);
+       margin-left: 5em;
+   } 
+
+  
+   #pad{
+       color: rgb(24, 126, 243);
+       padding-right: 0.6em;
+   }
+   .image{
+    border-radius: 30%;
+      width: auto;
+    
+      border-width: 0.3em;
+      border-style: hidden;
+      height:240px;
+      float: left;
+       overflow: hidden;
+       
+       margin-left: 4.3em;
+    
+   }
+   .image img{
+       width: 100%;
+       height: 100%;
+       
+       
+   }
+  
+   .textDec{
+       font-size: 30px;
+       margin-top: 70px;
+       color: rgb(255, 20, 98);
+       text-align: center;
+
+   }
+   .links{
+       text-align: end;
+       margin-left: 225px;
+       font-size: medium;
+       color: rgb(10, 139, 219);
+       
+   }
+   .extra{
+    text-align: end;
+    margin-left: 225px;
+    font-size: large;
+    color: rgb(10, 139, 219);
+   }
